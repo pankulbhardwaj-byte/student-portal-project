@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SAU Resources</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>SAU STUDENT PORTAL</h2>
+        <a href="index.html">Dashboard</a>
+        <a href="records.html">Academic Records</a>
+        <a href="notices.html">Notice Board</a>
+        <a href="resources.html">Resources</a>
+    </div>
+
+    <div class="main-content">
+        <h1>Learning Resources</h1>
+        <p>Access study materials, practice sheets, and previous year papers.</p>
+        
+        <div class="card-container">
+            <div class="card">
+                <h3>Previous Year Papers</h3>
+                <p>Collection of 2022-2023 question papers for all subjects.</p>
+                <button onclick="performAction('download')">Download PDF</button>
+            </div>
+
+            <div class="card">
+                <h3>Lecture Notes</h3>
+                <p>Python Programming notes uploaded by Prof. Taniya</p>
+                <button onclick="performAction('download')">Download Notes</button>
+            </div>
+
+            <div class="card">
+                <h3>Submit Assignment</h3>
+                <p>Upload your weekly practice sheets here for faculty review.</p>
+                <button onclick="alert('Please select a file to upload...')">Upload File</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

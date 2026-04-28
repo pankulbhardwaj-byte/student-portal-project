@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SAU Notice Board </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>SAU STUDENT PORTAL</h2>
+        <a href="index.html">Dashboard</a>
+        <a href="records.html">Academic Records</a>
+        <a href="notices.html">Notice Board</a>
+        <a href="resources.html">Resources</a>
+    </div>
+
+    <div class="main-content">
+        <h1>SAU Notice Board</h1>
+        <p>Stay updated with the latest administrative announcements.</p>
+        
+        <div class="card-container">
+            <div class="card">
+                <h3>Exam Schedule Update</h3>
+                <p>The final semester exam timetable has been released by the administration.</p>
+                <button onclick="performAction('notice')">View Full Details</button>
+            </div>
+
+            <div class="card" style="border-color: #e67e22;">
+                <h3>Convocation Fest 2026</h3>
+                <p>Registration for the annual Convocation fest is now open for all students.</p>
+                <button onclick="alert('Opening Registration Form...')">Register Now</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
